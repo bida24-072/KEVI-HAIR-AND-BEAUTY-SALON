@@ -68,3 +68,10 @@ header.open nav{display:flex}
 #scene{width:100%;opacity:.45}
 .form .card+.card{position:static}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+.wa{position:fixed;right:1.2rem;bottom:1.2rem;z-index:30;display:flex;align-items:center;background:#25d366;color:#fff;padding:.8rem;border-radius:99px;text-decoration:none;font-weight:500;box-shadow:0 10px 28px rgba(0,0,0,.3)}
+.wa svg{width:30px;height:30px;fill:#fff;flex:none}
+.wa span{max-width:0;overflow:hidden;white-space:nowrap;transition:max-width .3s}
+.wa:hover span,.wa:focus-visible span{max-width:8rem;padding:0 .4rem 0 .6rem}
+.wa::before{content:"";position:absolute;inset:0;border-radius:inherit;border:2px solid #25d366;animation:wa 2.4s ease-out infinite}
+@keyframes wa{to{transform:scale(1.5);opacity:0}}
+@media(prefers-reduced-motion:reduce){.wa::before{animation:none}}
