@@ -1,7 +1,8 @@
+// EDIT HERE: crew photos go in each person's photo field (e.g. photo:'kevi.jpg'). ig/tt = Instagram/TikTok links, per person or for the whole salon (top).
 // EDIT HERE: prices (Pula), crew, hours and contact details for the whole site.
 // Prices and crew below are PLACEHOLDERS: replace with the salon's real ones.
 window.KEVI={
-phone:'77760655',phone2:'78743220',wa:'26777760655',addr:'Riverwalk, Gaborone',fb:'',
+phone:'77760655',phone2:'78743220',wa:'26777760655',addr:'Riverwalk, Gaborone',fb:'',ig:'',tt:'',
 hours:{0:null,1:[8,19],2:[8,19],3:[8,19],4:[8,19],5:[8,19],6:[9,19]}, // [open,close] 24h, null = closed
 cats:[
 {id:'cut',name:'Hair cuts & styling',blurb:'Precision cuts, trims and finishes for ladies, men and kids.'},
